@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <script type="text/javascript" src="app/js/lib/angular.min.js"></script>
+    <script src="app/js/lib/angular.js"></script>
+    <script src="app/js/lib/angular-route.js"></script>
+    <script src="app/js/lib/angular-resource.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/services/commits.service.js"></script>
+<!--     <script src="app/services/repositories.service.js"></script> -->
+    <script src="app/services/users.service.js"></script>
+<!--     <script src="app/directives/repositories-table.directive.js"></script> -->
+    <script src="app/directives/commits-table.directive.js"></script>
+<!--     <script src="app/controllers/Main.controller.js"></script> -->
+    <script src="app/controllers/Users.controller.js"></script>
+    <script src="app/controllers/Commits.controller.js"></script>
+</head>
+
+<body>
+<div class="container" ng-app="githubProxy">
+    <ng-view></ng-view>
+</div>
+</body>
+</html>
